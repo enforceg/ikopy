@@ -39,6 +39,7 @@
  <p>Sorry, no posts matched your criteria.</p>
 
  <!-- ДЕЙСТВИТЕЛЬНО остановить Цикл -->
+ <!-- ДЕЙСТВИТЕЛЬНО остановить Цикл -->
  <?php endif; ?>		
 
 <?php get_footer(); ?>					
