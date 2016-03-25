@@ -519,5 +519,6 @@ input, textarea {
 	font-size: 75%;
 }
 
-.post {border: 1px solid black;}
+/*.post {border: 1px solid black;}*/
+
 .post-date {color: red;}

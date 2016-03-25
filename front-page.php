@@ -130,35 +130,36 @@
 
 		<div class="form-feedback">
 								
-				<form action="form.php" method="post">
+				<!-- <form action="form.php" method="post"> -->
+					<form action="/#wpcf7-f42-p7-o1" method="post" class="wpcf7-form" novalidate="novalidate">
 
 								<div class="row clearfix">
-									<div class="left-label"><label for="form-name">Ваше имя<span class="red">*</span></label></div>
-									<div class="right"><input type="text" id="form-name"></div>
+									<div class="left-label"><label>Ваше имя<span class="red">*</span></label></div>
+									<div class="right"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></div>
 								</div>	
 
 								<div class="row clearfix">
-									<div class="left-label"><label for="form-site">Ваш сайт</label></div>
-									<div class="left-label"><input type="text" id="form-site"></div>
+									<div class="left-label"><label>Ваш сайт</label></div>
+									<div class="left-label"><input type="text" name="your-site" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></div>
 								
-									<div class="left-label"  id="r-side"><label for="form-mail">Ваш E-mail<span class="red">*</span></label></div>
-									<div class="left-label"><input type="text" id="form-mail"></div>
+									<div class="left-label"  id="r-side"><label>Ваш E-mail<span class="red">*</span></label></div>
+									<div class="left-label"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></div>
 								</div>	
 
 								<div class="row clearfix">
-									<div class="left-label"><label for="form-msg">Сообщение<span class="red">*</span></label></div>
-									<div class="right"><textarea id="form-msg" rows="8"></textarea></div>
+									<div class="left-label"><label>Сообщение<span class="red">*</span></label></div>
+									<div class="right"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></div>
 								</div>	
 
-								<div class="row clearfix">
-									<div class="left-label"><label for="form-code">Введите код<span class="red">*</span></label></div>
+								<!-- <div class="row clearfix">
+									<div class="left-label"><label>Введите код<span class="red">*</span></label></div>
 									<div class="left-label"><input type="text" id="form-code"></div>
 									<div class="row clearfix">КАПЧА</div>
 
-								</div>	
+								</div>	 -->
 								<div class="row clearfix">
 									<div class="left-label">.</div>
-									<div class="left-label left-label-submit"><input class="submit" type="submit"></div>
+									<div class="left-label left-label-submit"><input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit" /></div>
 								</div>
 								
 								</form>
