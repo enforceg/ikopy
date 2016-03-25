@@ -1,0 +1,523 @@
+/*
+Theme Name: ikopy
+Theme URI: i-kopy.ru
+Author: Dmitry Gladun
+Author URI: https://vk.com/jim_griffin
+Description: cool shit))
+Version: 1.0
+*/
+
+
+body {
+	background-image: url(../ikopy/img/bg.jpg);
+	background-attachment: fixed;
+}
+
+.main {
+	max-width: 1240px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #fff;
+	/*temporary for mobile*/
+	overflow: hidden;
+	
+}
+
+.header {
+	height: 65px;
+	background-image: url(../ikopy/img/header_bg_.png);
+}
+
+.logo, .social-container {
+	display: inline-block;
+}
+
+
+.logo img {
+	margin-left: 36px;
+	margin-top: 12px;
+}
+
+.social-container {
+	float: right;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+.social-container img {
+	margin-right: 9px;
+        vertical-align: middle;
+}
+
+.nav {
+	background-color: #fff;
+}
+
+.menu {
+	margin: 0px;
+	padding: 16px 12px 11px 0px;
+	list-style: none;
+	text-align: right;
+}
+
+.menu li {
+	display: inline;
+	margin-right: 7px;
+}
+
+.menu li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #3777a4;
+	text-transform: uppercase;
+}
+
+.menu li a:hover {
+	color: red;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.intro {
+	padding: 0px 45px 0px 45px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: medium;
+}
+
+.intro p:first-child {
+	text-align: center;
+	font-size: medium;
+	padding: 0px 70px 0px 70px;
+}
+
+.about {
+	background-color: #fff;
+	background: url(../ikopy/img/min_head_bg.png) no-repeat;
+	min-height: 50px;
+	color: #fff;
+	text-shadow: gray 0 0 4px;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	position: relative;
+	z-index: 2;
+}
+.about h6 {
+	margin: 5px; 
+	font-size:150%;
+}
+
+.about-top {
+	margin-top: 0px;
+	top: -28px;
+}
+
+.service-container {
+	max-width: 1180px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
+
+.buy1 {
+	background: Gainsboro url('../ikopy/img/copy_logo.png') no-repeat 50% 10%;
+}
+
+.buy2 {
+	background: Gainsboro url('../ikopy/img/rewrite_logo.png') no-repeat 50% 10%;
+}
+
+.buy3 {
+	background: Gainsboro url('../ikopy/img/translates_logo.png') no-repeat 50% 10%;
+}
+
+.buy4 {
+	background: Gainsboro url('../ikopy/img/other_logo.png') no-repeat 50% 10%;
+}
+
+.service {
+	float: left;
+	position: relative;
+	width: 250px;
+	height: 300px;
+	border-radius: 5px;
+	box-shadow: 0px 4px 0px 0px Gray;
+	margin-bottom: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border: 1px solid Gainsboro;
+}
+
+.btn {
+	width: 70%;
+	margin: 0 auto;
+	color: white;
+	background-color: LightSeaGreen;
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px 0px;
+	font-weight: bold;
+	font-style: italic;
+	box-shadow: 0px 4px 0px 0px DarkCyan;
+	position: absolute;
+	left: 15%;
+	bottom: -6%;
+}
+
+.service:hover {
+	background-color: white;
+}
+
+.service .btn:hover {
+	background-color: Crimson;
+	box-shadow: 0px 4px 0px 0px FireBrick;
+}
+
+.btn-name, .btn-text {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+.btn-name {
+	text-transform: uppercase;
+	font-weight: bold;
+	top: 50%;
+}
+
+.btn-text {
+	font-style: italic;
+	width: 170px;
+	top: 55%;
+}
+
+.blue-stripe {
+	max-width: 1240px;
+	height: 40px;
+	background: url('../ikopy/img/blue_stripe.png') no-repeat 50% 20%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 120%;
+	padding-top: 10px;
+	text-shadow: gray 0 0 4px;
+}
+
+.profit-logo {
+	width: 85px;
+	height: 100px;
+}
+
+.pl1 {background: white url('../ikopy/img/small-1.png') no-repeat;}
+.pl2 {background: white url('../ikopy/img/small-2.png') no-repeat;}
+.pl3 {background: white url('../ikopy/img/small-3.png') no-repeat;}
+.pl4 {background: white url('../ikopy/img/small-4.png') no-repeat;}
+.pl5 {background: white url('../ikopy/img/small-5.png') no-repeat;}
+.pl6 {background: white url('../ikopy/img/small-6.png') no-repeat;}
+.pl7 {background: white url('../ikopy/img/small-7.png') no-repeat;}
+.pl8 {background: white url('../ikopy/img/small-8.png') no-repeat;}
+
+.profit-text {
+	width: 275px;
+	margin-left: 85px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 105%;
+	padding-top: 2px;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.profit-item {
+	width: 365px;
+}
+
+.feedback {
+	width: 99%;
+	margin-top: 20px;
+	/* border: 1px solid green; */
+}
+
+.text-feedback {
+	float: left;
+	width: 40%;
+	margin-left: 40px;
+	margin-top: 15px;
+} 
+.text-feedback ul {
+	padding-left: 0px;
+	max-width: 465px;
+}
+.text-feedback li {
+	list-style: none;
+	font-style: italic;
+	min-height: 43px;
+	background: white url('../ikopy/img/n1.png') no-repeat 0 40%;
+	padding-left: 40px;
+	margin-bottom: 10px;
+}
+
+.text-feedback li:nth-child(2) {
+	background: white url('../ikopy/img/n2.png') no-repeat 0 40%;
+}
+
+.text-feedback li:nth-child(3) {
+	background: white url('../ikopy/img/n3.png') no-repeat 0 40%;
+}
+
+.text-feedback li:nth-child(4) {
+	background: white url('../ikopy/img/n4.png') no-repeat 0 40%;
+}
+
+.text-feedback li:nth-child(5) {
+	background: white url('../ikopy/img/n5.png') no-repeat 0 40%;
+}
+
+.ask {
+	float: right;
+	margin-right: 60px;
+	height: 74px;
+}
+
+/* отута форма */
+
+.form-feedback {	
+	float: right;
+	width: 50%;
+} 
+
+.red{
+	color: red;
+}
+
+form {
+	border: 3px solid white;
+        border-radius: 10px;
+	width: 95%;
+	padding: 20px 0px 15px 20px;
+	display: block;
+	background-color: Gainsboro;
+	margin-right: 1px;
+	position: relative;
+	top: -5px;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.left-label {
+	display: block;
+	float: left;
+	width: 22%;
+	margin-right: 10px;
+}
+
+.left-label-submit {
+	width: 35%;
+}
+
+.right {
+	display: block;
+	float: left;
+	width: 70%;
+}
+
+.row {
+	margin-bottom: 6px;
+}
+
+label {
+	font-style: italic;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 0px;
+	border-radius: 5px;
+}
+
+#r-side {
+	text-align: right;
+}
+
+.submit {
+	background-color: white;
+	height: 34px;
+	border-radius: 17px;
+	border: none;
+	box-shadow: 1px 2px 1px 0px gray;
+	font-weight: bold;
+}
+
+/* отута ее конец */
+
+.profit-block {
+	width: 370px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.float-left {
+	float: left;
+}
+
+.profit-container {
+	max-width: 935px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.profit-block:first-child {
+	margin-right: 150px;
+}
+
+.portfolio-container {
+	background: url('../ikopy/img/portfolio-bg.png') repeat-y;
+	position:relative;
+	top: -20px;
+	z-index: 1;
+	padding-top: 35px;
+}
+
+.portfolio-item {
+	width: 260px;
+	height: 340px;
+	margin-left: 38px;
+	margin-bottom: 25px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+.portfolio-img {
+	width: 252px;
+	height: 156px;
+	/* background: white url('../ikopy/img/portfolio-1.png') no-repeat; */
+}
+.portfolio-text {
+	width: 227px;
+	font-style: italic;
+	/* font-weight: bold; */
+	font-size: 100%;
+	padding: 20px 5px 0px 10px;
+	text-align: justify;
+}
+
+.review-container {
+
+}
+
+.review-item {
+	width: 610px;
+	float: left;
+	margin-bottom: 50px;
+	
+}
+
+.review-img {
+	width: 125px;
+	height: 125px;
+	/* background: white url('../ikopy/img/portfolio-1.png') no-repeat; */
+	border-radius: 50%;
+	float: left;
+	margin-left: 30px;
+	overflow: hidden;
+}
+
+.review-img img {
+	width: 125px;
+	height: 125px;
+}
+
+.review-text {
+	width: 380px;
+	font-style: italic;
+	/* font-weight: bold; */
+	font-size: 105%;
+	padding: 30px 10px 0px 15px;
+	margin-left: 170px;
+}
+
+.footer {
+	height: 289px;
+	background: LightSeaGreen url('../ikopy/img/foter_2.png') no-repeat;
+	overflow: hidden;
+	font-size: 110%;
+}
+
+.contacts, .footer-nav, .blog-latest {
+	float: left;
+	margin-top: 40px;
+	line-height: 1.8;
+	/* font-weight: bold; */
+	margin-left: 40px;
+	
+}
+
+.contacts {
+	color: white;
+	width: 34%;
+}
+
+.contacts-head {
+	font-weight: bold;
+	font-size: 105%;
+}
+
+.footer-nav {
+	width: 29%;
+}
+
+.footer-nav ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.footer-nav li {
+	margin-left: 80px;
+}
+
+.footer-nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.blog-latest {
+	color: white;
+	width: 24%;
+}
+.temp {
+	color: #1D1D1D;
+}
+
+.footer-container {
+	height: 260px;
+}
+
+.author {
+	vertical-align: middle;
+	text-align: right;
+	padding-right: 40px;
+	color: #1D1D1D;
+	font-size: 75%;
+}
+
+.post {border: 1px solid black;}
+.post-date {color: red;}
